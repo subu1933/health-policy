@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("./_phone.scss");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.font-32 {
+  font-size: 32px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.star {
+  color: #ff9900;
+}
+
+.star-width {
+  width: 14px;
+  height: 14px;
+}
+
+.line-height {
+  line-height: 20px;
+}
+
+.link-clr {
+  color: #009688;
+}
+
+.bl-clr {
+  color: #333333;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.row-gap {
+  row-gap: 10px;
+}
+
+.column-gap {
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.font {
+  font-family: "Roboto", sans-serif;
+}
+
+.header .header-right p {
+  font-size: 14px;
+  color: #777777;
+}
+.header .header-right p span {
+  color: #009698;
+}
+.header .header-right .header-time {
+  color: #777777;
+  font-size: 12px;
+}
+.header .humburger {
+  display: none;
+}
+
+.health-section {
+  background-image: url("../img/health-insurance.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #9f82ef;
+  background-size: contain;
+  padding-bottom: 130px;
+}
+.health-section .health-form {
+  background: white;
+  width: 450px;
+  margin: auto;
+  padding: 15px;
+  border-radius: 5px;
+}
+.health-section .health-form h2 {
+  font-size: 18px;
+  color: #5f2ee5;
+}
+.health-section .health-form form select {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 12px;
+  outline: none;
+  color: #555;
+}
+.health-section .health-form form input {
+  margin-bottom: 15px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 12px;
+  outline: none;
+  font-size: 14px;
+}
+.health-section .health-form form ::-webkit-input-placeholder {
+  color: #777777;
+}
+.health-section .health-form form ::-moz-placeholder {
+  color: #777777;
+}
+.health-section .health-form form :-ms-input-placeholder {
+  color: #777777;
+}
+.health-section .health-form form ::-ms-input-placeholder {
+  color: #777777;
+}
+.health-section .health-form form ::placeholder {
+  color: #777777;
+}
+.health-section .health-form .form-caption {
+  font-size: 11px;
+  color: #777;
+}
+.health-section .health-form .form-caption span {
+  color: #009688;
+}
+.health-section .health-form .form-btn {
+  padding: 6px 12px;
+  background-color: #009688;
+  border-color: #009688;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.health-section .health-form a:hover {
+  color: #009688;
+}
+
+.company-section img {
+  width: 120%;
+  height: 55px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border: 1px solid #ddd;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.policy-section {
+  background: #fafafa;
+}
+.policy-section .policy-container {
+  min-height: 500px;
+}
+.policy-section .policy-container img {
+  width: 90px;
+  height: 90px;
+}
+.policy-section .policy-container h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.policy-section .policy-container p {
+  letter-spacing: 0.4px;
+}
+.policy-section .policy-container .policy-caption {
+  padding: 20px 15px 0 15px;
+}
+
+.policy-benifit .policy-benifit-container {
+  min-height: 500px;
+}
+.policy-benifit .policy-benifit-container img {
+  height: 90px;
+  width: 90px;
+}
+.policy-benifit .policy-benifit-container h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.policy-benifit .policy-benifit-container p {
+  letter-spacing: 0.4px;
+}
+.policy-benifit .policy-benifit-container .policy-caption {
+  padding: 20px 15px 0 15px;
+}
+
+.review-section {
+  background: #fafafa;
+  padding-bottom: 45px;
+}
+.review-section .review-subject p img {
+  margin-left: 8px;
+  margin-top: -5px;
+  margin-right: 2px;
+}
+.review-section .review-caption {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 4px;
+  background: white;
+}
+
+.que-section {
+  padding-bottom: 40px;
+}
+.que-section dl dt {
+  color: #212121;
+  font-weight: 700;
+}
+.que-section dl dd {
+  color: #333333;
+  line-height: 1.42857143;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #757575;
+}
+.footer .footer-caption {
+  color: #757575;
+  font-size: 13px;
+}

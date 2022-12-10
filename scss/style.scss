@@ -1,0 +1,286 @@
+// roboto font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+@import "./var";
+@import "./font";
+
+
+.header {
+
+    .header-right {
+
+        p {
+            font-size: 14px;
+            color: #777777;
+
+
+            span {
+                color: #009698;
+
+            }
+        }
+
+        .header-time {
+            color: #777777;
+            font-size: 12px;
+        }
+    }
+
+    .humburger {
+        display: none;
+    }
+}
+
+
+
+.health-section {
+    background-image: url("../img/health-insurance.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #9f82ef;
+    background-size: contain;
+    padding-bottom: 130px;
+
+
+    .health-form {
+        background: #ffff;
+        width: 450px;
+        margin: auto;
+        padding: 15px;
+        border-radius: 5px;
+
+
+        h2 {
+            font-size: 18px;
+            color: #5f2ee5;
+        }
+
+        form {
+
+            select {
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                padding: 6px 12px;
+                outline: none;
+                color: #555;
+
+
+            }
+
+
+
+
+            input {
+                margin-bottom: 15px;
+                padding: 5px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                padding: 6px 12px;
+                outline: none;
+                font-size: 14px;
+            }
+
+            ::placeholder {
+                color: #777777;
+            }
+
+        }
+
+
+        .form-caption {
+            font-size: 11px;
+            color: #777;
+
+            span {
+                color: #009688;
+            }
+        }
+
+        .form-btn {
+            padding: 6px 12px;
+            background-color: #009688;
+            border-color: #009688;
+            border-radius: 4px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        a {
+            &:hover {
+                color: #009688;
+            }
+        }
+    }
+}
+
+// form section close
+
+.company-section {
+
+    img {
+
+        width: 120%;
+        height: 55px;
+        object-fit: contain;
+        border: 1px solid #ddd;
+        padding: 4px;
+        border-radius: 4px;
+    }
+}
+
+// close company section
+
+
+// policy bachat section
+.policy-section {
+    background: #fafafa;
+
+    .policy-container {
+        min-height: 500px;
+
+
+        img {
+            width: 90px;
+            height: 90px;
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        p {
+            letter-spacing: 0.4px;
+        }
+
+        .policy-caption {
+            padding: 20px 15px 0 15px;
+        }
+    }
+}
+
+// policy bachat section close
+.policy-benifit {
+
+    .policy-benifit-container {
+        min-height: 500px;
+
+
+        img {
+            height: 90px;
+            width: 90px;
+
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        p {
+            letter-spacing: 0.4px;
+        }
+
+        .policy-caption {
+            padding: 20px 15px 0 15px;
+        }
+    }
+}
+
+// policy bachat section close
+
+
+// Reviews & Overall Rating section 
+.review-section {
+    background: #fafafa;
+    padding-bottom: 45px;
+
+
+    .review-subject {
+
+        p {
+            img {
+
+                margin-left: 8px;
+                margin-top: -5px;
+                margin-right: 2px;
+            }
+        }
+    }
+
+
+    .review-caption {
+        border: 1px solid #ccc;
+        padding: 15px;
+        border-radius: 4px;
+        background: #ffff;
+    }
+}
+
+// rating close
+.que-section {
+
+    padding-bottom: 40px;
+
+    dl {
+
+        dt {
+            color: #212121;
+            font-weight: 700;
+        }
+
+        dd {
+            color: #333333;
+            line-height: 1.42857143;
+
+        }
+    }
+}
+
+
+// footer
+
+.footer {
+
+    a {
+        text-decoration: none;
+        color: #757575;
+    }
+
+    .footer-caption {
+        color: #757575;
+        font-size: 13px;
+    }
+}
+
+
+
+// 
+@import url("./_phone.scss");
